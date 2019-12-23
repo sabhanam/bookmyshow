@@ -1,0 +1,46 @@
+#
+#
+#
+#
+#
+BMS.Ad.Video=xpath=//*[contains(@class,"overlay-card _video")]
+
+BMS.AdClose.Button=xpath=//*[contains(@class,"__dismiss icon-cancel")]
+
+BMS.Search.TextBox=xpath=//*[@name="inputSearchBox"]
+
+BMS.GetPersonalizedUpdates.Window=xpath=//*[text()='Get Personalized Updates']
+
+BMS.NotNow.Button=xpath=//button[text()='Not Now']
+
+BMS.VenueNames.Text=xpath=//*[@class='__venue-name']
+
+BMS.Seats.Table=xpath=//*[@class="setmain"]/tbody/tr
+
+BMS.Price.Rows=xpath=//tr/td[@class="PriceB1"]/..
+
+BMS.NonPrice.Rows=xpath=//tr/td[@class!="PriceB1"]/..
+
+BMS.SeatAlphabet.Text=xpath=//*[@class='seatR Setrow1']
+
+BMS.SeatRowsNames.Text=xpath=//*[@class="setmain"]/tbody/tr//div[@class="seatR Setrow1"]
+
+BMS.TermsAndConditions.PopUp=xpath=//*[@class="popover _terms-modal"]
+
+BMS.TermsAndConditions.Accept.Button=xpath=//*[@class="popover _terms-modal"]/descendant::a[@id='btnPopupAccept']
+
+BMS.SelectQuantity.PopUp=xpath=//*[@class="popover _qty-modal"]
+
+BMS.SelectSeats.Button=xpath=//*[@class='popover _qty-modal']/descendant::*[contains(text(),'Select Seats')]
+
+BMS.Seats.TableLayout=xpath=//*[@id="layout"]/table
+
+BMS.CancelSeatLayout.Button=xpath=//*[@id="dismiss"]
+
+BMS.PayNow.Button=xpath=//*[@class='__seat-action']/a[contains(.,'Pay')][1]
+
+BMS.Language.Dropdown=xpath=//*[contains(@class,"dropdown highlighted")]
+
+BMS.CurrentLanguage.Dropdown=xpath=//*[contains(@class,"dropdown highlighted")]/div
+
+BMS.BookingSummary.Header=xpath=//*[contains(text(),'Booking Summary')]
